@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin : 0;
+}
+
+.movieAppNavigationBar{
+    position: absolute;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    right: 0px;
+    background: #292929;
+}
+
+.myTestAppWriteUpOnNavBar{
+    width: 156.7px;
+    line-height: 32.94px;
+    margin-left: 19px;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.borderOnMyTestAppWriteUp{
+    position: absolute;
+    width: 193px;
+    height: 60px;
+    margin-left: 77px;
+    margin-top: 40px;
+    border: 1px solid white;
+}
+
+.movieBackgroundImage{
+    background-image: url(/public/Images/Rectangle\ 5.png);
+    position: absolute;
+    width: 1440px;
+    height: 550px;
+    margin-top: 138px;
+    left:0px;
+}
+
+.backGroundImageWriteUp{
+    color: #fff;
+    position: absolute;
+    width: 490px;
+    height: 282px;
+    margin-left: 77px;
+    margin-top: 109px;
+    font-family: DM sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120px;
+    letter-spacing: -0.05em;
+}
+
+.searchYourMovies{
+
+    font-family: DM sans;
+    font-style: Regular;
+    font-size: 100px;
+    line-height: 31px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.movieCategoryNameFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 937px;
+    margin-left: 30px;
+}
+
+.movieCategoryNameFlex2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 107px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.movieBoxOnMovieCategory{
+    height: 300px;
+    width: 270px;
+    border-radius: 12px;
+    background-color: #000;
+}
+
+.movieName {
+    color: #fff;
+    text-align: center;
+    margin-top: 135px;
+    font-family: DM sans;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.25px;
+}
+
+.moviecategoryName{
+    color: #000;
+    font-size: 50px;
+}
